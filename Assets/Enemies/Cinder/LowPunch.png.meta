@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 520490eb33f6b8b45a8a4c7525c91f55
+guid: 893ac79d733fd9f498f290d360e231fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6503182432984559051
-    second: DownHighKick_0
+      213: -2398401912150014257
+    second: LowPunch_0
   - first:
-      213: -4933748782567409228
-    second: DownHighKick_1
+      213: -699648940541059842
+    second: LowPunch_1
   - first:
-      213: -5984483598701642646
-    second: DownHighKick_2
+      213: -8418312265653512290
+    second: LowPunch_2
   - first:
-      213: -5893206535784480623
-    second: DownHighKick_3
+      213: 1331947294261093188
+    second: LowPunch_3
+  - first:
+      213: 6750957338897737196
+    second: LowPunch_4
+  - first:
+      213: 4465025857184862248
+    second: LowPunch_5
+  - first:
+      213: 2560493624573250439
+    second: LowPunch_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DownHighKick_0
+      name: LowPunch_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 74
-        height: 105
+        width: 58
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcdea9ba7f1ff3a50800000000000000
-      internalID: 6503182432984559051
+      spriteID: fc64ead0b2a27bed0800000000000000
+      internalID: -2398401912150014257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownHighKick_1
+      name: LowPunch_1
       rect:
         serializedVersion: 2
-        x: 81
+        x: 67
         y: 0
-        width: 97
-        height: 86
+        width: 66
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b9bd045f9dc78bb0800000000000000
-      internalID: -4933748782567409228
+      spriteID: efc5297def85a46f0800000000000000
+      internalID: -699648940541059842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownHighKick_2
+      name: LowPunch_2
       rect:
         serializedVersion: 2
-        x: 185
+        x: 142
         y: 0
-        width: 105
-        height: 60
+        width: 38
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6cbc37cfd7d2fca0800000000000000
-      internalID: -5984483598701642646
+      spriteID: e979865b8952c2b80800000000000000
+      internalID: -8418312265653512290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DownHighKick_3
+      name: LowPunch_3
       rect:
         serializedVersion: 2
-        x: 297
+        x: 191
         y: 0
-        width: 96
-        height: 86
+        width: 60
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +212,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1904e8611ef173ea0800000000000000
-      internalID: -5893206535784480623
+      spriteID: 443a9f5d1070c7210800000000000000
+      internalID: 1331947294261093188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPunch_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5e0de7ee730bd50800000000000000
+      internalID: 6750957338897737196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPunch_5
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82010724c55f6fd30800000000000000
+      internalID: 4465025857184862248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LowPunch_6
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b475ea263b88320800000000000000
+      internalID: 2560493624573250439
       vertices: []
       indices: 
       edges: []
@@ -222,11 +297,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      DownHighKick_0: 6503182432984559051
-      DownHighKick_1: -4933748782567409228
-      DownHighKick_2: -5984483598701642646
-      DownHighKick_3: -5893206535784480623
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

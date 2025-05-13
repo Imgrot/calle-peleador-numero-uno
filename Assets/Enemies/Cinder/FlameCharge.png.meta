@@ -1,46 +1,67 @@
 fileFormatVersion: 2
-guid: 58f75104a9696614f9843be81d77d70e
+guid: adbb13043866b134b9eaef047fb2e352
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1784093423469665028
-    second: Skeleport_0
+      213: -5602428846640492714
+    second: FlameCharge_0
   - first:
-      213: -2375032480094384834
-    second: Skeleport_1
+      213: -4702454738584556499
+    second: FlameCharge_1
   - first:
-      213: 4444825375806701855
-    second: Skeleport_2
+      213: -8027077917464338558
+    second: FlameCharge_2
   - first:
-      213: 3616738384598098390
-    second: Skeleport_3
+      213: 1918100729311682954
+    second: FlameCharge_3
   - first:
-      213: -7514668211448263634
-    second: Skeleport_4
+      213: 1010609781720473344
+    second: FlameCharge_4
   - first:
-      213: 4780599616506162969
-    second: Skeleport_5
+      213: -261030914457098025
+    second: FlameCharge_5
   - first:
-      213: 4430685705674876646
-    second: Skeleport_6
+      213: -975674424335402079
+    second: FlameCharge_6
   - first:
-      213: 1850058848090288097
-    second: Skeleport_7
+      213: -5739590809297410322
+    second: FlameCharge_7
   - first:
-      213: -649665604703346826
-    second: Skeleport_8
+      213: -5679712754759381384
+    second: FlameCharge_8
   - first:
-      213: 9214402873229925459
-    second: Skeleport_9
+      213: -3625610658344107861
+    second: FlameCharge_9
   - first:
-      213: 4824762164221377895
-    second: Skeleport_10
+      213: -2103366378866991855
+    second: FlameCharge_10
   - first:
-      213: 8162503169488181083
-    second: Skeleport_11
+      213: 8813375967362928395
+    second: FlameCharge_11
   - first:
-      213: -6298193483252244607
-    second: Skeleport_12
+      213: -6416472744680974305
+    second: FlameCharge_12
+  - first:
+      213: -7695746529813718763
+    second: FlameCharge_13
+  - first:
+      213: 4452596980224465029
+    second: FlameCharge_14
+  - first:
+      213: -1567033373808603694
+    second: FlameCharge_15
+  - first:
+      213: 1951154298598537791
+    second: FlameCharge_16
+  - first:
+      213: 6796264563802479383
+    second: FlameCharge_17
+  - first:
+      213: 1852669607533550400
+    second: FlameCharge_18
+  - first:
+      213: -5735811940878139207
+    second: FlameCharge_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -149,13 +170,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skeleport_0
+      name: FlameCharge_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 71
-        height: 109
+        width: 46
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +185,130 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf4eaffdb70ad37e0800000000000000
-      internalID: -1784093423469665028
+      spriteID: 65f879c95ac2042b0800000000000000
+      internalID: -5602428846640492714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleport_1
+      name: FlameCharge_1
       rect:
         serializedVersion: 2
-        x: 77
+        x: 55
+        y: 0
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ca05674568dbeb0800000000000000
+      internalID: -4702454738584556499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 71
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fd721d9271a9090800000000000000
+      internalID: -8027077917464338558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a816a0663767e9a10800000000000000
+      internalID: 1918100729311682954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 72
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fdbf5fd38660e00800000000000000
+      internalID: 1010609781720473344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 10
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8a36c24c1a06cf0800000000000000
+      internalID: -261030914457098025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_6
+      rect:
+        serializedVersion: 2
+        x: 430
         y: 0
         width: 57
-        height: 107
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +317,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3d85f5fa803a0fd0800000000000000
-      internalID: -2375032480094384834
+      spriteID: 1abfd09c745b572f0800000000000000
+      internalID: -975674424335402079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleport_2
+      name: FlameCharge_7
       rect:
         serializedVersion: 2
-        x: 141
+        x: 498
         y: 0
-        width: 68
-        height: 120
+        width: 65
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +339,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f11c99d21213fad30800000000000000
-      internalID: 4444825375806701855
+      spriteID: ee62bbf8190e850b0800000000000000
+      internalID: -5739590809297410322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleport_3
+      name: FlameCharge_8
       rect:
         serializedVersion: 2
-        x: 216
+        x: 573
+        y: 4
+        width: 68
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ecf4a875b9d21b0800000000000000
+      internalID: -5679712754759381384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_9
+      rect:
+        serializedVersion: 2
+        x: 653
         y: 0
         width: 64
-        height: 118
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +383,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d16d73066c313230800000000000000
-      internalID: 3616738384598098390
+      spriteID: ba08787c05e3fadc0800000000000000
+      internalID: -3625610658344107861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleport_4
+      name: FlameCharge_10
       rect:
         serializedVersion: 2
-        x: 288
+        x: 700
+        y: 21
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d122b2c675fc2e0800000000000000
+      internalID: -2103366378866991855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_11
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 15
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fc1ae3fb66f4a70800000000000000
+      internalID: 8813375967362928395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_12
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 9
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18905ed80c14f6a0800000000000000
+      internalID: -6416472744680974305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_13
+      rect:
+        serializedVersion: 2
+        x: 744
         y: 0
-        width: 54
-        height: 130
+        width: 57
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,174 +471,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2cc4bb731986b790800000000000000
-      internalID: -7514668211448263634
+      spriteID: 51912011e47333590800000000000000
+      internalID: -7695746529813718763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleport_5
+      name: FlameCharge_14
       rect:
         serializedVersion: 2
-        x: 352
-        y: 0
-        width: 49
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91fe733c50a185240800000000000000
-      internalID: 4780599616506162969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleport_6
-      rect:
-        serializedVersion: 2
-        x: 413
-        y: 0
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e6e62eac25fc7d30800000000000000
-      internalID: 4430685705674876646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleport_7
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 0
-        width: 36
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ef6df568babca910800000000000000
-      internalID: 1850058848090288097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleport_8
-      rect:
-        serializedVersion: 2
-        x: 488
-        y: 0
-        width: 40
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67f1ed8139cebf6f0800000000000000
-      internalID: -649665604703346826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleport_9
-      rect:
-        serializedVersion: 2
-        x: 535
-        y: 0
-        width: 27
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35c553cd79220ef70800000000000000
-      internalID: 9214402873229925459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleport_10
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 0
-        width: 40
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76df82c20aff4f240800000000000000
-      internalID: 4824762164221377895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleport_11
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 0
-        width: 36
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b57d757c269074170800000000000000
-      internalID: 8162503169488181083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleport_12
-      rect:
-        serializedVersion: 2
-        x: 665
+        x: 835
         y: 0
         width: 22
-        height: 33
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,8 +493,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18fd11075625898a0800000000000000
-      internalID: -6298193483252244607
+      spriteID: 5889146dc5dcacd30800000000000000
+      internalID: 4452596980224465029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_15
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddc4f2f277c04ae0800000000000000
+      internalID: -1567033373808603694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_16
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a31f53f74e31b10800000000000000
+      internalID: 1951154298598537791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_17
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 12
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b9505dc9e215e50800000000000000
+      internalID: 6796264563802479383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_18
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 55
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b1333313106b910800000000000000
+      internalID: 1852669607533550400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameCharge_19
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0c38ded6d4660b0800000000000000
+      internalID: -5735811940878139207
       vertices: []
       indices: 
       edges: []
@@ -447,20 +622,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Skeleport_0: -1784093423469665028
-      Skeleport_1: -2375032480094384834
-      Skeleport_10: 4824762164221377895
-      Skeleport_11: 8162503169488181083
-      Skeleport_12: -6298193483252244607
-      Skeleport_2: 4444825375806701855
-      Skeleport_3: 3616738384598098390
-      Skeleport_4: -7514668211448263634
-      Skeleport_5: 4780599616506162969
-      Skeleport_6: 4430685705674876646
-      Skeleport_7: 1850058848090288097
-      Skeleport_8: -649665604703346826
-      Skeleport_9: 9214402873229925459
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

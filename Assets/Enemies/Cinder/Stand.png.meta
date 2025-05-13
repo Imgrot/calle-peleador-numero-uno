@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d5a21dedabb0dd446bc88012aed3ac02
+guid: c8e3009af5e8743488f295a89c38a281
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2242771656064102024
-    second: Spinal_Rooftop_0
+      213: 2147685559727469259
+    second: Stand_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spinal_Rooftop_0
+      name: Stand_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 580
-        height: 222
+        width: 52
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8711cffbf0310e0e0800000000000000
-      internalID: -2242771656064102024
+      spriteID: bc2bacc33ac1ecd10800000000000000
+      internalID: 2147685559727469259
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Spinal_Rooftop_0: -2242771656064102024
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

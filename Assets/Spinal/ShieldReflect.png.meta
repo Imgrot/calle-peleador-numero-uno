@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ShieldReflect_0: -6844391478971276518
+      ShieldReflect_1: 2901255769277033485
+      ShieldReflect_2: -5201458030046730911
+      ShieldReflect_3: -8951658658812168601
+      ShieldReflect_4: 6088805195698209174
+      ShieldReflect_5: -1733166374323582822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DownMidKick_0: -6282069481546464712
+      DownMidKick_1: 8724976480795183239
+      DownMidKick_2: -7815845447709782913
+      DownMidKick_3: 9016750713980455145
+      DownMidKick_4: 6204932737656431408
+      DownMidKick_5: 3397106761493497329
+      DownMidKick_6: -4568048407614697282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

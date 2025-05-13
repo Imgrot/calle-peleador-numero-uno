@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SoulSword_0: 3268629429440896732
+      SoulSword_1: 2549708801592442884
+      SoulSword_2: -3871313604516094019
+      SoulSword_3: -7022750121795547185
+      SoulSword_4: 8382869447343612530
+      SoulSword_5: -3656221457020775869
+      SoulSword_6: -3361925616040030434
+      SoulSword_7: 4356336891831928619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AbsorbShield_0: 4843592097864201251
+      AbsorbShield_1: -8159462248948739444
+      AbsorbShield_2: 6904583695596604498
+      AbsorbShield_3: -4474027465150809455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

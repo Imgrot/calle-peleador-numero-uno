@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ShieldCharge_0: 7552902100127137550
+      ShieldCharge_1: 3852185946040966118
+      ShieldCharge_10: 2390652259275124224
+      ShieldCharge_11: 6324686986550498774
+      ShieldCharge_2: 4756766452939977353
+      ShieldCharge_3: 2554614903482758830
+      ShieldCharge_4: 5333336595965215147
+      ShieldCharge_5: -5592129735867207206
+      ShieldCharge_6: 5357812542327958802
+      ShieldCharge_7: 2006125186215608907
+      ShieldCharge_8: -8541215618547169158
+      ShieldCharge_9: 3511791351659830836
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

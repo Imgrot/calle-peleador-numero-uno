@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DownHighSword_0: 1871683121728972014
+      DownHighSword_1: 2952681308323265008
+      DownHighSword_2: 1606392593369010860
+      DownHighSword_3: 7533548138443859143
+      DownHighSword_4: 1435197101519711490
+      DownHighSword_5: -497577057246585532
+      DownHighSword_6: 3878857476700353987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

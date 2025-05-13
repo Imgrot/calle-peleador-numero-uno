@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 1252e8584079ad1448878a944308cd88
+guid: 323e7f420b9a6304caf451f45e0dad8b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7642986446173420197
-    second: Victory_0
+      213: 4723107735738678597
+    second: Idle_0
   - first:
-      213: -1213821068326169202
-    second: Victory_1
+      213: -7385789195546760866
+    second: Idle_1
   - first:
-      213: -1810436841963963296
-    second: Victory_2
+      213: 3234629978573100161
+    second: Idle_2
   - first:
-      213: 5022149424062018482
-    second: Victory_3
+      213: 6373048116405451881
+    second: Idle_3
   - first:
-      213: 2721468719747651066
-    second: Victory_4
+      213: 7264182050183361747
+    second: Idle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Victory_0
+      name: Idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 52
-        height: 99
+        width: 53
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5545bc4258aee590800000000000000
-      internalID: -7642986446173420197
+      spriteID: 54d7a982679db8140800000000000000
+      internalID: 4723107735738678597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_1
+      name: Idle_1
       rect:
         serializedVersion: 2
         x: 62
         y: 0
-        width: 72
-        height: 99
+        width: 50
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +162,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8598816b24a72fe0800000000000000
-      internalID: -1213821068326169202
+      spriteID: e596485bbd7608990800000000000000
+      internalID: -7385789195546760866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_2
+      name: Idle_2
       rect:
         serializedVersion: 2
-        x: 143
+        x: 122
+        y: 0
+        width: 49
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184dda4e3d6b3ec20800000000000000
+      internalID: 3234629978573100161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_3
+      rect:
+        serializedVersion: 2
+        x: 180
         y: 0
         width: 54
-        height: 104
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06c357ac84900e6e0800000000000000
-      internalID: -1810436841963963296
+      spriteID: 96cb1dafe7d917850800000000000000
+      internalID: 6373048116405451881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_3
+      name: Idle_4
       rect:
         serializedVersion: 2
-        x: 207
+        x: 243
         y: 0
-        width: 42
-        height: 106
+        width: 56
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,30 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b3362eea4242b540800000000000000
-      internalID: 5022149424062018482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Victory_4
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 0
-        width: 46
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af555e3b16994c520800000000000000
-      internalID: 2721468719747651066
+      spriteID: 3d4b2fc561f8fc460800000000000000
+      internalID: 7264182050183361747
       vertices: []
       indices: 
       edges: []
@@ -247,12 +247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Victory_0: -7642986446173420197
-      Victory_1: -1213821068326169202
-      Victory_2: -1810436841963963296
-      Victory_3: 5022149424062018482
-      Victory_4: 2721468719747651066
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

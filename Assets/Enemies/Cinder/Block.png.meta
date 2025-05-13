@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 1252e8584079ad1448878a944308cd88
+guid: e14f380c245c75a4886fe76a710c4f63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7642986446173420197
-    second: Victory_0
+      213: 2537882373423050008
+    second: Block_0
   - first:
-      213: -1213821068326169202
-    second: Victory_1
-  - first:
-      213: -1810436841963963296
-    second: Victory_2
-  - first:
-      213: 5022149424062018482
-    second: Victory_3
-  - first:
-      213: 2721468719747651066
-    second: Victory_4
+      213: 2189487477073400709
+    second: Block_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Victory_0
+      name: Block_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 52
-        height: 99
+        width: 47
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,42 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5545bc4258aee590800000000000000
-      internalID: -7642986446173420197
+      spriteID: 81d2b95829e583320800000000000000
+      internalID: 2537882373423050008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Victory_1
+      name: Block_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 0
-        width: 72
-        height: 99
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8598816b24a72fe0800000000000000
-      internalID: -1213821068326169202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Victory_2
-      rect:
-        serializedVersion: 2
-        x: 143
+        x: 72
         y: 0
         width: 54
-        height: 104
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,52 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06c357ac84900e6e0800000000000000
-      internalID: -1810436841963963296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Victory_3
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 0
-        width: 42
-        height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b3362eea4242b540800000000000000
-      internalID: 5022149424062018482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Victory_4
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 0
-        width: 46
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af555e3b16994c520800000000000000
-      internalID: 2721468719747651066
+      spriteID: 583502f824f926e10800000000000000
+      internalID: 2189487477073400709
       vertices: []
       indices: 
       edges: []
@@ -247,12 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Victory_0: -7642986446173420197
-      Victory_1: -1213821068326169202
-      Victory_2: -1810436841963963296
-      Victory_3: 5022149424062018482
-      Victory_4: 2721468719747651066
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour
     }
     void Update()
     {
+        VerificarPosicionGeneral();
         Skills skillScript = GetComponent<Skills>();
         if (skillScript != null && (isControlBlocked || skillScript.IsBlocking))
         {
@@ -48,9 +49,21 @@ public class Movement : MonoBehaviour
         {
             anim.SetBool("walking", false);
         }
+    }
+
+    public void VerificarPosicionGeneral()
+    {
         if (transform.position.y != -2.0f)
         {
             transform.position = new Vector3(transform.position.x, -2.0f, transform.position.z);
+        }
+        if (transform.position.x > 7.5f)
+        {
+            transform.position = new Vector3(7.5f, transform.position.y, transform.position.z);
+        }
+        if (transform.position.x < -7.5f)
+        {
+            transform.position = new Vector3(-7.5f, transform.position.y, transform.position.z);
         }
     }
 }

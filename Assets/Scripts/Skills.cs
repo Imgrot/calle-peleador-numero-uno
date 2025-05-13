@@ -8,7 +8,7 @@ public class Skills : MonoBehaviour
     public float speedX = 4.0f;
 
     public bool isCharging = false;
-    public bool IsBlocking => anim.GetBool("blocking");
+    public bool IsBlocking = false;
 
     public bool isAttacking = false;
     public bool canUseShieldCharge = true;
@@ -31,32 +31,46 @@ public class Skills : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Z))
         {
-            anim.SetBool("walking", false);
-            StartCoroutine(SoulSwordRoutine());
+            if (IsBlocking == false)
+            {
+                anim.SetBool("walking", false);
+                StartCoroutine(SoulSwordRoutine());
+            }
         }
         else if (Input.GetKey(KeyCode.X) && canUseShieldCharge)
         {
-            anim.SetBool("walking", false);
-            StartCoroutine(ShieldChargeRoutine());
+            if (IsBlocking == false)
+            {
+                anim.SetBool("walking", false);
+                StartCoroutine(ShieldChargeRoutine());
+            }
         }
         else if (Input.GetKey(KeyCode.V) && canUseSkeleport)
         {
-            anim.SetBool("walking", false);
-            StartCoroutine(SkeleportRoutine());
+            if (IsBlocking == false)
+            {
+                anim.SetBool("walking", false);
+                StartCoroutine(SkeleportRoutine());
+            }
         }
         else if (Input.GetKey(KeyCode.C))
         {
-            anim.SetBool("walking", false);
-            StartCoroutine(LowSwordRoutine());
+            if (IsBlocking == false)
+            {
+                anim.SetBool("walking", false);
+                StartCoroutine(LowSwordRoutine());
+            }
         }
         else if (Input.GetKey("down"))
         {
             anim.SetBool("walking", false);
             anim.SetBool("blocking", true);
+            IsBlocking = true;
         }
         else
         {
             anim.SetBool("blocking", false);
+            IsBlocking = false;
         }
     }
 
@@ -93,7 +107,7 @@ public class Skills : MonoBehaviour
 
         anim.SetBool("ShieldCharge", true);
 
-        float duration = 0.8f;
+        float duration = 1.5f;
         float timer = 0f;
         while (timer < duration)
         {
@@ -115,8 +129,9 @@ public class Skills : MonoBehaviour
         canUseSkeleport = false;
         isAttacking = true;
         anim.SetBool("Skeleport", true);
+        movementScript.isControlBlocked = true;
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.4f);
 
         Vector3 currentPos = transform.position;
         float targetX = currentPos.x - 3.0f;
@@ -126,12 +141,12 @@ public class Skills : MonoBehaviour
 
         transform.position = new Vector3(targetX, currentPos.y, currentPos.z);
 
-        yield return new WaitForSeconds(0.8f);
-
+        yield return new WaitForSeconds(0.4f);
         anim.SetBool("Skeleport", false);
         isAttacking = false;
+        movementScript.isControlBlocked = false;
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2.0f);
         canUseSkeleport = true;
     }
 }

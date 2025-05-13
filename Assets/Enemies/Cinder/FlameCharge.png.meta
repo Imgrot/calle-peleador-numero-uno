@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlameCharge_0: -5602428846640492714
+      FlameCharge_1: -4702454738584556499
+      FlameCharge_10: -2103366378866991855
+      FlameCharge_11: 8813375967362928395
+      FlameCharge_12: -6416472744680974305
+      FlameCharge_13: -7695746529813718763
+      FlameCharge_14: 4452596980224465029
+      FlameCharge_15: -1567033373808603694
+      FlameCharge_16: 1951154298598537791
+      FlameCharge_17: 6796264563802479383
+      FlameCharge_18: 1852669607533550400
+      FlameCharge_19: -5735811940878139207
+      FlameCharge_2: -8027077917464338558
+      FlameCharge_3: 1918100729311682954
+      FlameCharge_4: 1010609781720473344
+      FlameCharge_5: -261030914457098025
+      FlameCharge_6: -975674424335402079
+      FlameCharge_7: -5739590809297410322
+      FlameCharge_8: -5679712754759381384
+      FlameCharge_9: -3625610658344107861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

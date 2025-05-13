@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LowPunch_0: -2398401912150014257
+      LowPunch_1: -699648940541059842
+      LowPunch_2: -8418312265653512290
+      LowPunch_3: 1331947294261093188
+      LowPunch_4: 6750957338897737196
+      LowPunch_5: 4465025857184862248
+      LowPunch_6: 2560493624573250439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

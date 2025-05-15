@@ -4,15 +4,44 @@ using System.Collections;
 public class Skills : MonoBehaviour
 {
     public bool blocking = false;
-    public bool walking = false;
     public float speedX = 4.0f;
+    private bool _walking = false;
+    public bool Walking
+    {
+        get { return _walking; }
+        set { _walking = value; }
+    }
 
-    public bool isCharging = false;
-    public bool IsBlocking = false;
-
-    public bool isAttacking = false;
-    public bool canUseShieldCharge = true;
-    public bool canUseSkeleport = true;
+    private bool _blocking = false;
+    public bool Blocking
+    {
+        get { return _blocking; }
+        set { _blocking = value; }
+    }
+    private bool _chargePlayer = false;
+    public bool ChargePlayer
+    {
+        get { return _chargePlayer; }
+        set { _chargePlayer = value; }
+    }
+    private bool _isAttacking = false;
+    public bool IsAttacking
+    {
+        get { return _isAttacking; }
+        set { _isAttacking = value; }
+    }
+    private bool _canUseShieldCharge = true;
+    public bool CanUseShieldCharge
+    {
+        get { return _canUseShieldCharge; }
+        set { _canUseShieldCharge = value; }
+    }
+    private bool _canUseSkeleport = true;
+    public bool CanUseSkeleport
+    {
+        get { return _canUseSkeleport; }
+        set { _canUseSkeleport = value; }
+    }
 
     public Movement movementScript;
     public Animator anim;
@@ -27,27 +56,27 @@ public class Skills : MonoBehaviour
 
     void Update()
     {
-        if (isAttacking) return;
+        if (_isAttacking) return;
 
         if (Input.GetKey(KeyCode.Z))
         {
-            if (IsBlocking == false)
+            if (_blocking == false)
             {
                 anim.SetBool("walking", false);
                 StartCoroutine(SoulSwordRoutine());
             }
         }
-        else if (Input.GetKey(KeyCode.X) && canUseShieldCharge)
+        else if (Input.GetKey(KeyCode.X) && _canUseShieldCharge)
         {
-            if (IsBlocking == false)
+            if (_blocking == false)
             {
                 anim.SetBool("walking", false);
                 StartCoroutine(ShieldChargeRoutine());
             }
         }
-        else if (Input.GetKey(KeyCode.V) && canUseSkeleport)
+        else if (Input.GetKey(KeyCode.V) && _canUseSkeleport)
         {
-            if (IsBlocking == false)
+            if (_blocking == false)
             {
                 anim.SetBool("walking", false);
                 StartCoroutine(SkeleportRoutine());
@@ -55,7 +84,7 @@ public class Skills : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.C))
         {
-            if (IsBlocking == false)
+            if (_blocking == false)
             {
                 anim.SetBool("walking", false);
                 StartCoroutine(LowSwordRoutine());
@@ -65,18 +94,18 @@ public class Skills : MonoBehaviour
         {
             anim.SetBool("walking", false);
             anim.SetBool("blocking", true);
-            IsBlocking = true;
+            _blocking = true;
         }
         else
         {
             anim.SetBool("blocking", false);
-            IsBlocking = false;
+            _blocking = false;
         }
     }
 
     IEnumerator SoulSwordRoutine()
     {
-        isAttacking = true;
+        _isAttacking = true;
         movementScript.isControlBlocked = true;
 
         anim.SetBool("SoulSword", true);
@@ -84,11 +113,11 @@ public class Skills : MonoBehaviour
 
         anim.SetBool("SoulSword", false);
         movementScript.isControlBlocked = false;
-        isAttacking = false;
+        _isAttacking = false;
     }
     IEnumerator LowSwordRoutine()
     {
-        isAttacking = true;
+        _isAttacking = true;
         movementScript.isControlBlocked = true;
 
         anim.SetBool("LowSword", true);
@@ -96,13 +125,13 @@ public class Skills : MonoBehaviour
 
         anim.SetBool("LowSword", false);
         movementScript.isControlBlocked = false;
-        isAttacking = false;
+        _isAttacking = false;
     }
     IEnumerator ShieldChargeRoutine()
     {
-        canUseShieldCharge = false;
-        isAttacking = true;
-        isCharging = true;
+        _canUseShieldCharge = false;
+        _isAttacking = true;
+        _chargePlayer = true;
         movementScript.isControlBlocked = true;
 
         anim.SetBool("ShieldCharge", true);
@@ -117,17 +146,17 @@ public class Skills : MonoBehaviour
         }
 
         anim.SetBool("ShieldCharge", false);
-        isCharging = false;
-        isAttacking = false;
+        _chargePlayer = false;
+        _isAttacking = false;
         movementScript.isControlBlocked = false;
 
         yield return new WaitForSeconds(2f);
-        canUseShieldCharge = true;
+        _canUseShieldCharge = true;
     }
     IEnumerator SkeleportRoutine()
     {
-        canUseSkeleport = false;
-        isAttacking = true;
+        _canUseSkeleport = false;
+        _isAttacking = true;
         anim.SetBool("Skeleport", true);
         movementScript.isControlBlocked = true;
 
@@ -143,10 +172,10 @@ public class Skills : MonoBehaviour
 
         yield return new WaitForSeconds(0.4f);
         anim.SetBool("Skeleport", false);
-        isAttacking = false;
+        _isAttacking = false;
         movementScript.isControlBlocked = false;
 
         yield return new WaitForSeconds(2.0f);
-        canUseSkeleport = true;
+        _canUseSkeleport = true;
     }
 }

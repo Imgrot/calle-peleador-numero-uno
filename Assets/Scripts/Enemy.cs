@@ -2,92 +2,94 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float VelocidadHorizontal;
+    public float speedX;
     public Animator anim;
+    public Animator animPlayer;
     private bool isCollision;
     public GameManager gameManager;
     private int aleatorio;
 
-    public Animations animations;
-    private bool _block;
+    public Skills animations;
+    public bool _block;
 
     void Start()
     {
-        VelocidadHorizontal = 5.0f;
+        speedX = 5.0f;
         isCollision = false;
-        InvokeRepeating("RoiIA", 0, 0.5f);
+        InvokeRepeating("EnemyIA", 0, 0.5f);
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         _block = false;
     }
     void Update()
     {
         Movimiento();
+        DeadAndWin();
     }
 
     private void Movimiento()
     {
-        transform.position += new Vector3(-VelocidadHorizontal * Time.deltaTime, 0, 0);
+        transform.position += new Vector3(-speedX * Time.deltaTime, 0, 0);
         if (transform.position.x < 5.7f)
         {
-            VelocidadHorizontal *= -1;
+            speedX *= -1;
         }
     }
 
-    private void RoiIA()
+    private void EnemyIA()
     {
         aleatorio = Random.Range(0, 5);
         if (isCollision)
         {
             if (aleatorio == 0)
             {
-                anim.SetBool("AtaqueEnemy1 ", true);
+                anim.SetBool("HighKick", true);
             }
             else
             {
-                anim.SetBool("AtaqueEnemy1 ", false);
+                anim.SetBool("HighKick", false);
             }
             if (aleatorio == 1)
             {
-                anim.SetBool("AtaqueEnemy2 ", true);
+                anim.SetBool("LowPunch", true);
             }
             else
             {
-                anim.SetBool("AtaqueEnemy2 ", false);
+                anim.SetBool("LowPunch", false);
             }
             if (aleatorio == 2)
             {
-                anim.SetBool("AtaqueEnemy3 ", true);
+                anim.SetBool("Punches", true);
             }
             else
             {
-                anim.SetBool("AtaqueEnemy3 ", false);
+                anim.SetBool("Punches", false);
             }
             if (aleatorio == 3)
             {
-                anim.SetBool("BloqueoEnemy", true);
+                anim.SetBool("blocking", true);
                 _block = true;
             }
             else
             {
-                anim.SetBool("BloqueoEnemy", false);
+                anim.SetBool("blocking", false);
                 _block = false;
             }
             if (aleatorio == 4 | aleatorio == 5)
             {
-                VelocidadHorizontal *= -1;
-                anim.SetBool("BloqueoEnemy", false);
-                anim.SetBool("AtaqueEnemy1 ", false);
-                anim.SetBool("AtaqueEnemy2 ", false);
-                anim.SetBool("AtaqueEnemy3 ", false);
+                anim.SetBool("blocking", false);
+                anim.SetBool("HighKick", false);
+                anim.SetBool("LowPunch", false);
+                anim.SetBool("Punches", false);
+                speedX *= -1;
             }
         }
         else
         {
-            anim.SetBool("BloqueoEnemy", false);
-            anim.SetBool("AtaqueEnemy1 ", false);
-            anim.SetBool("AtaqueEnemy2 ", false);
-            anim.SetBool("AtaqueEnemy3 ", false);
-            VelocidadHorizontal *= -1;
+            anim.SetBool("blocking", false);
+            anim.SetBool("HighKick", false);
+            anim.SetBool("LowPunch", false);
+            anim.SetBool("Punches", false);
+            speedX *= -1;
         }
     }
 
@@ -114,25 +116,36 @@ public class Enemy : MonoBehaviour
         {
             if (aleatorio == 0 || aleatorio == 1 || aleatorio == 2)
             {
-                gameManager.numeroVidasPlayer--;
+                gameManager.numeroVidasPlayer -= 0.05f;
                 gameManager.isDeadPlayer = true;
             }
         }
-        //Ver resultado en consola
         Debug.Log(gameManager.numeroVidasPlayer);
         Debug.Log(gameManager.isDeadPlayer);
 
-        //Logica Player al enemigo
         if (isCollision)
         {
-            if (animations.PatadaAltaPlayer == true || animations.PatadaMediaPlayer == true || animations.PatadaBajaPlayer == true)
+            if (animations.IsAttacking == true)
             {
-                gameManager.numeroVidasEnemy--;
+                gameManager.numeroVidasEnemy -= 0.05f;
                 gameManager.isDeadEnemy = true;
             }
         }
-        //Ver resultado en consola
         Debug.Log("Al enemigo le quedan " + gameManager.numeroVidasPlayer);
         Debug.Log("¿Esta Muerto?" + gameManager.isDeadPlayer);
+    }
+    private void DeadAndWin()
+    {
+        if (gameManager.numeroVidasEnemy < 1)
+        {
+            anim.SetBool("LOSE", true);
+            animPlayer.SetBool("WIN", true);
+        }
+        if (gameManager.numeroVidasPlayer < 1)
+        {
+            anim.SetBool("WIN", true);
+            animPlayer.SetBool("LOSE", true);
+        }
+        speedX = 0f;
     }
 }

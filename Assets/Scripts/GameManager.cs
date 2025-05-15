@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private int _numeroVidasPlayer = 10;
-    private int _numeroVidasEnemy = 10;
+    private float _numeroVidasPlayer = 10;
+    private float _numeroVidasEnemy = 10;
     private bool _isDeadPlayer = false;
     private bool _isDeadEnemy = false;
     private bool _isBlockPlayer = false;
     private bool _isBlockEnemy = false;
 
     //Logica Vida Player
-    public int numeroVidasPlayer
+    public float numeroVidasPlayer
     {
         get { return _numeroVidasPlayer; }
         set { _numeroVidasPlayer = value; }
     }
     //Logica vida Enemigo
-    public int numeroVidasEnemy
+    public float numeroVidasEnemy
     {
         get { return _numeroVidasEnemy; }
         set { _numeroVidasEnemy = value; }

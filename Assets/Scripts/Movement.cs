@@ -15,7 +15,7 @@ public class Movement : MonoBehaviour
     {
         VerificarPosicionGeneral();
         Skills skillScript = GetComponent<Skills>();
-        if (skillScript != null && (isControlBlocked || skillScript.IsBlocking))
+        if (skillScript != null && (isControlBlocked || skillScript.Blocking))
         {
             anim.SetBool("walking", false);
             return;
@@ -50,7 +50,6 @@ public class Movement : MonoBehaviour
             anim.SetBool("walking", false);
         }
     }
-
     public void VerificarPosicionGeneral()
     {
         if (transform.position.y != -2.0f)
